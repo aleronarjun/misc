@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetroClass {
 
-    private static final String BASE_URL = "http://www.androidbegin.com/tutorial";
+    private static final String BASE_URL = "http://www.androidbegin.com/";
 
     private static Retrofit getRetrofitInstance(){
         return new Retrofit.Builder().baseUrl(BASE_URL)
