@@ -21,8 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".FlagActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:parentActivityName=".MainActivity"
-            ></activity>
+            />
     </application>
 
 </manifest>
